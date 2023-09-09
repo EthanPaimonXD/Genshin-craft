@@ -1,0 +1,901 @@
+{
+  "mod_elements": [
+    {
+      "name": "Primogem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primogem"
+    },
+    {
+      "name": "Mora",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mora"
+    },
+    {
+      "name": "GenshincraftItems",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genshincraft_items"
+    },
+    {
+      "name": "GenesisCrystal",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genesis_crystal"
+    },
+    {
+      "name": "PrimogemCraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primogem_craft"
+    },
+    {
+      "name": "NorthlanderSwordBillet",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "northlander_sword_billet"
+    },
+    {
+      "name": "DullBlade",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dull_blade"
+    },
+    {
+      "name": "GenshincraftSwords",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genshincraft_swords"
+    },
+    {
+      "name": "SilverSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword"
+    },
+    {
+      "name": "CoolSteel",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cool_steel"
+    },
+    {
+      "name": "GenesisCrystalTemporary",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genesis_crystal_temporary"
+    },
+    {
+      "name": "HarbingerOfDawn",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harbinger_of_dawn"
+    },
+    {
+      "name": "TravelersHandySword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelers_handy_sword"
+    },
+    {
+      "name": "DarkIronSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_iron_sword"
+    },
+    {
+      "name": "FilletBlade",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fillet_blade"
+    },
+    {
+      "name": "SkyriderSword",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyrider_sword"
+    },
+    {
+      "name": "SkyriderSwordDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyrider_sword_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoolSteelDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cool_steel_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FilletBladeDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fillet_blade_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FavoniusSword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "favonius_sword"
+    },
+    {
+      "name": "TheFlute",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_flute"
+    },
+    {
+      "name": "SacrificialSword",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacrificial_sword"
+    },
+    {
+      "name": "RoyalLongsword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_longsword"
+    },
+    {
+      "name": "LionsRoar",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lions_roar"
+    },
+    {
+      "name": "LionsRoarDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lions_roar_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrototypeRancourDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prototype_rancour_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrototypeRancour",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prototype_rancour"
+    },
+    {
+      "name": "IronStingDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sting_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronSting",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sting"
+    },
+    {
+      "name": "BlackcliffLongsword",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackcliff_longsword"
+    },
+    {
+      "name": "BlackcliffLongswordDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackcliff_longsword_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBlackSwordDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_black_sword_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBlackSword",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_black_sword"
+    },
+    {
+      "name": "SwordOfDescensionDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_descension_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordOfDescension",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_descension"
+    },
+    {
+      "name": "SkywardBladeDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyward_blade_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkywardBlade",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyward_blade"
+    },
+    {
+      "name": "AquilaFavonia",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquila_favonia"
+    },
+    {
+      "name": "SummitShaperDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summit_shaper_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SummitShaper",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summit_shaper"
+    },
+    {
+      "name": "PrimordialJadeCutter",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primordial_jade_cutter"
+    },
+    {
+      "name": "Flour",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour"
+    },
+    {
+      "name": "FlourCrafting",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour_crafting"
+    },
+    {
+      "name": "Cream",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cream"
+    },
+    {
+      "name": "CreamCrafting",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cream_crafting"
+    },
+    {
+      "name": "Butter",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter"
+    },
+    {
+      "name": "ButterCrafting",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_crafting"
+    },
+    {
+      "name": "Sunsettia",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunsettia"
+    },
+    {
+      "name": "SereniteaPot",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serenitea_pot"
+    },
+    {
+      "name": "GenshincraftCookingIngredient",
+      "type": "tab",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genshincraft_cooking_ingredient"
+    },
+    {
+      "name": "GenshincraftFood",
+      "type": "tab",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genshincraft_food"
+    },
+    {
+      "name": "PopsTea",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pops_teas"
+    },
+    {
+      "name": "PopsTeaWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pops_tea_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AppleCiderDrink",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_cider_drink",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AppleCider",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_cider"
+    },
+    {
+      "name": "AppleCiderCrafting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_cider_crafting"
+    },
+    {
+      "name": "SereniteaPotCrafting",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serenitea_pot_crafting"
+    },
+    {
+      "name": "BerryAndMintBurstWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berry_and_mint_burst_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BerryAndMintBurst",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berry_and_mint_burst"
+    },
+    {
+      "name": "TagGenshincraftSwords",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tag_genshincraft_swords"
+    },
+    {
+      "name": "IntertwinedFate",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intertwined_fate"
+    },
+    {
+      "name": "IntertwinedFatelist",
+      "type": "loottable",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intertwined_fatelist"
+    },
+    {
+      "name": "IntertwinedFateClick",
+      "type": "loottable",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intertwined_fate_click"
+    },
+    {
+      "name": "CookingPot",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooking_pot"
+    },
+    {
+      "name": "GenshincraftClaymore",
+      "type": "tab",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genshincraft_claymore"
+    },
+    {
+      "name": "WasterGreatsword",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waster_greatsword"
+    },
+    {
+      "name": "OldMercsPal",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_mercs_pal"
+    },
+    {
+      "name": "SkyriderGreatswordDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyrider_greatsword_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkyriderGreatsword",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyrider_greatsword"
+    },
+    {
+      "name": "DebateClub",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debate_club"
+    },
+    {
+      "name": "WhiteIronGreatsword",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_iron_greatsword"
+    },
+    {
+      "name": "WhiteIronGreatswordDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_iron_greatsword_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodtaintedGreatsword",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodtainted_greatsword"
+    },
+    {
+      "name": "BloodtaintedGreatswordDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodtainted_greatsword_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FerrousShadow",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrous_shadow"
+    },
+    {
+      "name": "FerrousShadowDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferrous_shadow_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrototypeArchaic",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prototype_archaic"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.genshin_craft.royal_longsword": "Royal Longsword",
+      "item.genshin_craft.fillet_blade": "Fillet Blade",
+      "item.genshin_craft.mora": "Mora",
+      "item.genshin_craft.dark_iron_sword": "Dark Iron Sword",
+      "item.genshin_craft.sacrificial_sword": "Sacrificial Sword",
+      "item.genshin_craft.sunsettia": "Sunsettia",
+      "itemGroup.genshin_craft.genshincraft_claymore": "Genshincraft Claymore",
+      "item.genshin_craft.the_flute": "The Flute",
+      "item.genshin_craft.lions_roar": "Lion\u0027s Roar",
+      "item.genshin_craft.berry_and_mint_burst": "Berry And Mint Burst",
+      "item.genshin_craft.blackcliff_longsword": "Blackcliff Longsword",
+      "itemGroup.genshin_craft.genshincraft_cooking_ingredient": "Genshincraft Cooking Ingredient",
+      "item.genshin_craft.flour": "Flour",
+      "item.genshin_craft.white_iron_greatsword": "Skyrider Greatsword",
+      "item.genshin_craft.favonius_sword": "Favonius Sword",
+      "item.genshin_craft.cool_steel": "Cool Steel",
+      "item.genshin_craft.skyrider_sword": "Skyrider Sword",
+      "item.genshin_craft.prototype_archaic": "Prototype Archaic",
+      "itemGroup.genshin_craft.genshincraft_items": "Genshincraft Items",
+      "item.genshin_craft.bloodtainted_greatsword": "Skyrider Greatsword",
+      "item.genshin_craft.aquila_favonia": "Aquila Favonia",
+      "item.genshin_craft.skyward_blade": "Skyward Blade",
+      "block.genshin_craft.serenitea_pot": "Serenitea Pot",
+      "item.genshin_craft.old_mercs_pal": "Old Mercs Pal",
+      "item.genshin_craft.northlander_sword_billet": "Northlander Sword Billet",
+      "item.genshin_craft.primordial_jade_cutter": "Summit Shaper",
+      "item.genshin_craft.skyrider_greatsword": "Skyrider Greatsword",
+      "item.genshin_craft.sword_of_descension": "Sword Of Descension",
+      "item.genshin_craft.debate_club": "Skyrider Greatsword",
+      "item.genshin_craft.prototype_rancour": "Prototype Rancour",
+      "item.genshin_craft.ferrous_shadow": "Ferrous Shadow",
+      "item.genshin_craft.travelers_handy_sword": "Travelers Handy Sword",
+      "item.genshin_craft.pops_teas": "Pop’s tea",
+      "item.genshin_craft.genesis_crystal": "Genesis Crystal",
+      "item.genshin_craft.harbinger_of_dawn": "Harbinger Of Dawn",
+      "item.genshin_craft.iron_sting": "Iron Sting",
+      "itemGroup.genshin_craft.genshincraft_food": "Genshincraft Food",
+      "block.genshin_craft.intertwined_fate": "Intertwined Fate",
+      "block.genshin_craft.cooking_pot": "Cooking Pot",
+      "item.genshin_craft.summit_shaper": "Summit Shaper",
+      "item.genshin_craft.cream": "Cream",
+      "item.genshin_craft.dull_blade": "Dull Blade",
+      "item.genshin_craft.primogem": "Primogem",
+      "itemGroup.genshin_craft.genshincraft_swords": "Genshincraft Swords",
+      "item.genshin_craft.silver_sword": "Silver Sword",
+      "item.genshin_craft.butter": "Butter",
+      "item.genshin_craft.the_black_sword": "The Black Sword",
+      "item.genshin_craft.apple_cider": "Apple Cider",
+      "item.genshin_craft.waster_greatsword": "Waster Greatsword"
+    },
+    "zh_cn": {
+      "item.genshin_craft.royal_longsword": "宗室长剑",
+      "item.genshin_craft.fillet_blade": "吃虎鱼刀",
+      "item.genshin_craft.mora": "摩拉",
+      "item.genshin_craft.dark_iron_sword": "暗铁剑",
+      "item.genshin_craft.sacrificial_sword": "祭礼剑",
+      "item.genshin_craft.sunsettia": "日落果",
+      "itemGroup.genshin_craft.genshincraft_claymore": "Genshincraft Claymore",
+      "item.genshin_craft.the_flute": "笛剑",
+      "item.genshin_craft.lions_roar": "匣里龙吟",
+      "item.genshin_craft.berry_and_mint_burst": "Berry And Mint Burst",
+      "item.genshin_craft.blackcliff_longsword": "黑岩长剑",
+      "itemGroup.genshin_craft.genshincraft_cooking_ingredient": "Genshincraft Cooking Ingredient",
+      "item.genshin_craft.flour": "面粉",
+      "item.genshin_craft.white_iron_greatsword": "白铁大剑",
+      "item.genshin_craft.favonius_sword": "西风剑",
+      "item.genshin_craft.cool_steel": "冷刃",
+      "item.genshin_craft.skyrider_sword": "飞天御剑",
+      "item.genshin_craft.prototype_archaic": "Ferrous Shadow",
+      "itemGroup.genshin_craft.genshincraft_items": "Genshincraft物品",
+      "item.genshin_craft.bloodtainted_greatsword": "沐浴龙血的剑",
+      "item.genshin_craft.aquila_favonia": "风鹰剑",
+      "item.genshin_craft.skyward_blade": "天空之刃",
+      "block.genshin_craft.serenitea_pot": "尘歌壶",
+      "item.genshin_craft.old_mercs_pal": "佣兵重剑",
+      "item.genshin_craft.northlander_sword_billet": "北陆单手剑原胚",
+      "item.genshin_craft.primordial_jade_cutter": "磬岩结绿",
+      "item.genshin_craft.skyrider_greatsword": "Skyrider Greatsword",
+      "item.genshin_craft.sword_of_descension": "降临之剑",
+      "item.genshin_craft.debate_club": "Skyrider Greatsword",
+      "item.genshin_craft.prototype_rancour": "试作斩岩",
+      "item.genshin_craft.ferrous_shadow": "Skyrider Greatsword",
+      "item.genshin_craft.travelers_handy_sword": "旅行剑",
+      "item.genshin_craft.pops_teas": "大碗茶",
+      "item.genshin_craft.genesis_crystal": "创世结晶",
+      "item.genshin_craft.harbinger_of_dawn": "黎明神剑",
+      "item.genshin_craft.iron_sting": "铁蜂刺",
+      "itemGroup.genshin_craft.genshincraft_food": "Genshincraft Food",
+      "block.genshin_craft.intertwined_fate": "Intertwined Fate",
+      "block.genshin_craft.cooking_pot": "Cooking Pot",
+      "item.genshin_craft.summit_shaper": "斫峰之刃",
+      "item.genshin_craft.cream": "鲜奶油",
+      "item.genshin_craft.dull_blade": "无锋剑",
+      "item.genshin_craft.primogem": "原石",
+      "itemGroup.genshin_craft.genshincraft_swords": "Genshincraft剑",
+      "item.genshin_craft.silver_sword": "银剑",
+      "item.genshin_craft.butter": "奶油",
+      "item.genshin_craft.the_black_sword": "黑剑",
+      "item.genshin_craft.apple_cider": "Apple Cider",
+      "item.genshin_craft.waster_greatsword": "训练大剑"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "genshin_craft",
+    "modName": "Genshin Craft",
+    "version": "alpha1.0.0",
+    "author": "EthanPaimonXD, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.genshincraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
